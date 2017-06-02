@@ -16,7 +16,7 @@ public class BoardListActionPaging implements Action{
 
 	
 	private static final int listMax=10;//한 페이지에 띄울 list 갯수
-	private static final int pageMax=1;//페이지 그룹에서 페이지의 갯수
+	private static final int pageMax=10;//페이지 그룹에서 페이지의 갯수
 		
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
